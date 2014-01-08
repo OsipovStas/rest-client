@@ -1,8 +1,10 @@
+import dispatch.Http
 import java.text.SimpleDateFormat
 import java.util.Date
 
 object Rest extends App {
 
+  import dispatch._, Defaults._
 
   val Format = new SimpleDateFormat("yyyy-MM-dd")
 
@@ -32,6 +34,7 @@ object Rest extends App {
 
 object RestClient {
 
+  import dispatch._, Defaults._
 
   val host = url("http://desolate-everglades-5929.herokuapp.com")
 
