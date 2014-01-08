@@ -1,0 +1,52 @@
+run
+clean
+compile
+exit
+run
+exit
+run
+clean
+compile
+reload
+compile
+reload
+clean
+compile
+idea
+exit
+gen-idea
+task gen-idea
+clean
+reloa
+reload
+compile
+gen-idea
+run
+clean
+compile
+сдуфт
+clean
+compile
+exit
+clean
+compile
+gen-idea
+run
+clean
+compile
+gen-idea
+run
+clean
+compile
+run
+console
+clean
+compile
+gen-dea
+gen-idea
+scalacOptions += "-feature"
+scalacOptions += -feature
+set scalacOptions in ThisBuild ++= Seq("-feature")
+clean
+compile
+clean
